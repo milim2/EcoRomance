@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="Project5.Home" %>
+
+<%@ Register src="LeftControl.ascx" tagname="LeftControl" tagprefix="uc1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 1256px;
+        }
+        .auto-style4 {
+            width: 813px;
+        }
+        .auto-style5 {
+            width: 247px;
+        }
+        .auto-style6 {
+            width: 166px;
+        }
+        .auto-style7 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style7" colspan="3" style="font-size: xx-large; color: #000000">ROMANCE GIFT SHOP</td>
+                </tr>
+                <tr>
+                    <td class="auto-style6">
+                        <uc1:LeftControl ID="LeftControl2" runat="server" />
+                    </td>
+                    <td class="auto-style4" style="vertical-align:top">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td style="vertical-align:top" class="auto-style5">
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Cart.aspx">Shopping Cart</asp:HyperLink>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style7" colspan="3">Sheridan College ASP.NET Class</td>
+                </tr>
+            </table>
+            
+        </div>
+    </form>
+</body>
+</html>
+
