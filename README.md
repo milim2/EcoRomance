@@ -8,4 +8,9 @@
 
 ## 2. View Example
 
+![graph2](https://user-images.githubusercontent.com/37784073/56929368-64848580-6aa7-11e9-8035-3562591f299c.jpg)
+
+![graph3](https://user-images.githubusercontent.com/37784073/56929377-68b0a300-6aa7-11e9-880b-5924040cf48e.jpg)
+
+![graph4](https://user-images.githubusercontent.com/37784073/56929385-6c442a00-6aa7-11e9-8759-9d7a2f27dd73.jpg)
 
