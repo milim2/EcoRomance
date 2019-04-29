@@ -6,6 +6,4 @@
 ![graph](https://user-images.githubusercontent.com/37784073/56929125-d01a2300-6aa6-11e9-8e85-e8634585528c.jpg)
 
 
-## 2. View Example
-
 
